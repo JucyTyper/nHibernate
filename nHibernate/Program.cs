@@ -8,7 +8,7 @@ namespace nHibernate
     {
         public static void Main(string[] args)
         {
-            //string connStr = "Data Source=112.196.113.3,1535;Initial Catalog=Test;User ID=sa;Password=Mssql@chicmic2023;Trusted_Connection = True;TrustServerCertificate=True; Integrated Security=false";
+            
             var config = new NHibernate.Cfg.Configuration();
             /*config.DataBaseIntegration(d=>{
                 d.ConnectionString = connStr;
